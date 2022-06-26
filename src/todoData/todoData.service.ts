@@ -1,7 +1,6 @@
 import { todoData } from './todoData.entity';
 import { Injectable, Inject } from '@nestjs/common';
 import { Repository } from 'typeorm';
-import { InjectRepository } from '@nestjs/typeorm';
 
 @Injectable()
 export class TodoDataService {
